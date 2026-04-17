@@ -42,7 +42,7 @@ const chairsList = [
 
 function Chairs() {
     return (
-        <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-xl">
+        <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-xl items-center">
             <h1 className="text-5xl font-bold w-full text-left mb-10">
                 Chairs:
             </h1>

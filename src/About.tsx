@@ -3,7 +3,7 @@ import ContentSplit from "./ContentSplit";
 
 function About() {
     return (
-        <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS]">
+        <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] items-center">
             <div className="block mx-5 text-xl w-5/6 text-left">
                 <h1 className="text-5xl font-bold w-full text-left mb-10">
                     About:
