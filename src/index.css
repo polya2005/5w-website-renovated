@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@tailwind utilities;
+@theme {
+    --color-5w-blue: #83dcf4;
+    --color-5w-blue-dark: #5ecdf2;
+    --color-5w-blue-light: #dbf5fc;
+}
