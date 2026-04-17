@@ -2,17 +2,6 @@ import "./index.css";
 import { NavLink } from "react-router";
 
 function NavBar() {
-    // return (
-    //     <>
-    //         <header>
-    //             <button
-    //                 onclick="document.location = 'index.html'"
-    //                 id="homeButton"
-    //                 class="homeButton"
-    //             >
-    //                 <img src="./images/5W Banner.png" alt="5W Banner"></img>
-    //             </button>
-    //         </header>
     return (
         <nav>
             <div className="block h-0.5 bg-5w-blue w-full" />
