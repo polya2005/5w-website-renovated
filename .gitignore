@@ -38,6 +38,9 @@ next-env.d.ts
 
 *.local
 
+# Build system files
+kerb.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
