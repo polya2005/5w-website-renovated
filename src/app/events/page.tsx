@@ -8,7 +8,7 @@ type Event = {
 
 function EventCard({ event }: { event: Event }) {
     return (
-        <div className="border border-5w-blue-dark rounded-lg p-4 mb-4">
+        <div className="border border-5w-blue-dark rounded-lg p-4 mb-4 w-full">
             <div className="flex justify-between items-baseline">
                 <h2 className="text-2xl font-bold text-5w-blue-dark">
                     {event.name}

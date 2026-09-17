@@ -12,7 +12,7 @@ function Misc() {
                 height="537"
                 src="https://www.youtube.com/embed/hvL1339luv0?autoplay=1&loop=1"
                 title="Never gonna Meow you up"
-                allow="autoplay; picture-in-picture; web-share"
+                allow="autoplay; picture-in-picture;"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>

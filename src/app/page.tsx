@@ -1,5 +1,5 @@
-import "./index.css";
-import ContentSplit from "./ContentSplit";
+import "../index.css";
+import ContentSplit from "../components/ContentSplit";
 
 function About() {
     return (
