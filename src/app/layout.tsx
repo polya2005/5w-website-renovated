@@ -1,17 +1,13 @@
 import NavBar from "../components/NavBar";
 import "../index.css";
 
-export default function Layout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>5W</title>
+        <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🐱 Fifth West! 🐱</title>
       </head>
       <body>
         <div className="flex flex-col justify-between min-h-screen">
@@ -22,8 +18,7 @@ export default function Layout({
             id="lastUpdated"
             className="text-sm font-[Trebuchet_MS] text-5w-blue-dark mt-auto ml-1 mb-1"
           >
-            This site was last updated April 16, 2026. (Happy Birthday,
-            webmaster's brother!)
+            This site was last updated September 17, 2026.
           </div>
         </div>
       </body>
