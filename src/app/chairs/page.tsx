@@ -14,6 +14,7 @@ function ChairsTableRow(props: { semester: string; chairs: Array<string> }) {
 }
 
 const chairsList = [
+  { semester: "Fall 2026", chairs: ["Gabrielle", "Lily", "River"] },
   { semester: "Spring 2026", chairs: ["Aadya", "Gabrielle", "River"] },
   { semester: "Fall 2025", chairs: ["Aadya", "Ann", "Jess"] },
   { semester: "Spring 2025", chairs: ["Ann", "Jason", "Jess"] },
