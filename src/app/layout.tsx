@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             id="lastUpdated"
             className="text-sm font-[Trebuchet_MS] text-5w-blue-dark mt-auto ml-1 mb-1"
           >
-            This site was last updated September 17, 2026.
+            This site was last updated September 19, 2026.
           </div>
         </div>
       </body>
