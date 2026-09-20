@@ -65,7 +65,7 @@ If you want to contribute to the website, please read the [CONTRIBUTING.md](CONT
    This will upload the static files in the `out` directory to the server, making your changes live on the website. In the process, you will be prompted to enter your MIT username and password for authentication. If you encounter any issues during deployment, please contact davidbartus on Discord.
 1. Open [5west.mit.edu](https://5west.mit.edu) in your browser to see your changes live on the website. If something is not working as expected, please try to fix the issue.
 
-   > [!IMPORTANT]
+   > [!CAUTION]
    > If it takes you too long to resolve the issue, please revert the website to the previous working state by running:
    >
    > ```bash
