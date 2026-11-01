@@ -35,16 +35,16 @@ const eventList: Array<Event> = [
       "Every Thursday, we hold a hall gathering in the kitchen where food is provided (usually by the chairs) and information (usually announcements) is disseminated.",
   },
   {
+    date: "11/11/2026",
+    name: "Hallsgiving",
+    description:
+      "Hallsgiving is held in the fall semester, and the exact date varies. It is exactly what it sounds like: Hall + Thanksgiving.",
+  },
+  {
     date: "10/16/2026",
     name: "415W Mixer",
     description:
       'The 415W Mixer is a mixer between 5W and 41W, where we will have "extreme spoons and chatting," per our SocialComm. Trust us, we\'re not gonna make the fire alarm go off.',
-  },
-  {
-    date: "12/07/2025",
-    name: "Hallsgiving",
-    description:
-      "Hallsgiving is held in the fall semester, and the exact date varies. It is exactly what it sounds like: Hall + Thanksgiving.",
   },
   {
     date: "12/14/2025",
