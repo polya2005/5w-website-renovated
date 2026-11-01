@@ -19,7 +19,7 @@ function About() {
         lines. (Among actual responses: "CAT CAT CAT," "cats cats cats," and
         "Cats!!!") As their responses suggest, we're a cat hall, and
         historically, we've had a lot of resident felines (around 9 in past
-        years; currently 1; potentially more after IAP).
+        years; currently 2; potentially more after IAP).
         <ContentSplit />
         Beyond the cats, in a standard year, we are a no-smoking and
         clothing-not-optional hall. We eat cheese and/or
