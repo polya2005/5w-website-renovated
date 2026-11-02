@@ -43,8 +43,10 @@ const chairsList = [
 
 function Chairs() {
   return (
-    <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-xl items-center">
-      <h1 className="text-5xl font-bold w-full text-left mb-10">Chairs:</h1>
+    <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-base md:text-xl items-center">
+      <h1 className="text-3xl md:text-5xl font-bold w-full text-left mb-7 md:mb-10">
+        Chairs:
+      </h1>
       We have them. For sitting at the kitchen table, in a lounge, or at a desk
       in your room.
       <ContentSplit />
@@ -55,7 +57,9 @@ function Chairs() {
       (probably) also the people you should contact. Reachable at
       5west-chairs@mit.edu.
       <ContentSplit />
-      <h2 className="text-2xl my-5">Hall Chairs: A History</h2>
+      <h2 className="text-lg md:text-2xl my-3 md:my-5">
+        Hall Chairs: A History
+      </h2>
       <table className="table-auto border-collapse border border-5w-blue-dark w-full">
         <thead>
           <tr>

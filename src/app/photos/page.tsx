@@ -13,7 +13,9 @@ const photos = fs
 function Photos() {
   return (
     <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-xl items-center">
-      <h1 className="text-5xl font-bold w-full text-left mb-10">Photos:</h1>
+      <h1 className="text-3xl md:text-5xl font-bold w-full text-left mb-7 md:mb-10">
+        Photos:
+      </h1>
       {photos.map((filename, index) => (
         <img
           key={index}

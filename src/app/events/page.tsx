@@ -10,13 +10,15 @@ function EventCard({ event }: { event: Event }) {
   return (
     <div className="border border-5w-blue-dark rounded-lg p-4 mb-4 w-full">
       <div className="flex justify-between items-baseline">
-        <h2 className="text-2xl font-bold text-5w-blue-dark">{event.name}</h2>
-        <p className="text-lg font-semibold flex items-center">
+        <h2 className="text-lg md:text-2xl font-bold text-5w-blue-dark">
+          {event.name}
+        </h2>
+        <p className="text-sm md:text-lg font-semibold flex items-center justify-end">
           <MdDateRange className="mr-1" /> {event.date}
         </p>
       </div>
       <hr className="border-5w-blue-light my-2" />
-      <p className="text-lg">{event.description}</p>
+      <p className="text-sm md:text-lg">{event.description}</p>
     </div>
   );
 }
@@ -73,8 +75,10 @@ const eventList: Array<Event> = [
 
 function Events() {
   return (
-    <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] text-xl items-center">
-      <h1 className="text-5xl font-bold w-full text-left mb-10">Events:</h1>
+    <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] items-center">
+      <h1 className="text-3xl md:text-5xl font-bold w-full text-left mb-7 md:mb-10">
+        Events:
+      </h1>
       {eventList.map((event, index) => (
         <EventCard key={index} event={event} />
       ))}
