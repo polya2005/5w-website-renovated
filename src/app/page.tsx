@@ -4,8 +4,10 @@ import ContentSplit from "../components/ContentSplit";
 function About() {
   return (
     <div className="flex pt-[8vh] px-[2vh] text-5w-blue-dark w-full flex-col font-[Trebuchet_MS] items-center">
-      <div className="block mx-5 text-xl w-5/6 text-left">
-        <h1 className="text-5xl font-bold w-full text-left mb-10">About:</h1>
+      <div className="block mx-5 text-base md:text-xl w-5/6 text-left">
+        <h1 className="text-3xl md:text-5xl font-bold w-full text-left mb-7 md:mb-10">
+          About:
+        </h1>
         tldr for prospective residents: if you prefer a more lowkey environment,
         come and get to know us! Alternatively, if you prefer things to be more
         "hardcore," still come and get to know us! Hall culture isn't immutable.
