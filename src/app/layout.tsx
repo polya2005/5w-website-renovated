@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             id="lastUpdated"
             className="text-sm font-[Trebuchet_MS] text-5w-blue-dark mt-auto ml-1 mb-1"
           >
-            This site was last updated October 31, 2026. Happy Halloween!
+            This site was last updated November 2, 2026.
           </div>
         </div>
       </body>
